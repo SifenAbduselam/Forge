@@ -1,7 +1,3 @@
-let age = 18;
+let isRaining = true;
 
-let hasId = false;
-
-if(age >= 18 || hasId === true ) {
-    console.log("You may enter the club")
-}  
+ isRaining ? console.log("it is raining") : console.log("it is not raining")
