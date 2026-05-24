@@ -1,6 +1,7 @@
-let isRaining = true;
+let loggedIn = true;
+let hasMembership = true;
 
- let result = isRaining ? "is raining" : "is not raining"
 
+let str = loggedIn && hasMembership ? "show the video" : "don't show the video";
 
- console.log(result)
+console.log(str);
