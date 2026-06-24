@@ -9,3 +9,6 @@ function outer() {
     }
 }
 
+outer();
+
+inner();
