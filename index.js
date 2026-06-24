@@ -1,12 +1,5 @@
-let counter = 1 
-while(counter <= 20) {
-    
-console.log(counter)
+let s=10;
 
-    counter = counter + 1;
-
-    
-
+if(s > 15){
+    console.log("less than 15")
 }
-
-console.log("finish")
