@@ -7,8 +7,8 @@ function outer() {
 
         console.log(x);
     }
+    inner();
 }
 
 outer();
 
-inner();
