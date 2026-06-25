@@ -1,18 +1,20 @@
 function outer() {
-    let count = 0
+    let count = 0;
+
 
     function inner() {
-        count++;
-        console.log(count);
+
+        counter++
+
+        return count;
     }
 
     return inner;
 }
 
-const fn = outer();
+const counter1 = outer();
+const counter2 = outer();
 
-
-fn();
-fn();
-fn();
+console.log(counter1());
+console.log(counter1())
 
