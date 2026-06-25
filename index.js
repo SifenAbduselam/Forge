@@ -1,5 +1,5 @@
 function outer() {
-    let count =0
+    let count = 0
 
     function inner() {
         count++;
@@ -8,3 +8,11 @@ function outer() {
 
     return inner;
 }
+
+const fn = outer();
+
+
+fn();
+fn();
+fn();
+
