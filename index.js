@@ -1,14 +1,10 @@
-let x = 10;
-
 function outer() {
-    let x = 20;
+    let count =0
 
     function inner() {
-
-        console.log(x);
+        count++;
+        console.log(count);
     }
-    inner();
+
+    return inner;
 }
-
-outer();
-
