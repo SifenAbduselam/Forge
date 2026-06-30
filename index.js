@@ -1,9 +1,8 @@
 //  so array means a distance from the beginning 
 
 
-const a =[1, 2, 3];
-const b = a
+const students = ["Ali", "sara"]
 
-b.push(4)
+students.push("John");
 
-console.log(b)
+console.log(students)
