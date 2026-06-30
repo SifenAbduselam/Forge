@@ -1,20 +1,9 @@
-function outer() {
-    let count = 0;
+//  so array means a distance from the beginning 
 
 
-    function inner() {
+const a =[1, 2, 3];
+const b = a
 
-        counter++
+b.push(4)
 
-        return count;
-    }
-
-    return inner;
-}
-
-const counter1 = outer();
-const counter2 = outer();
-
-console.log(counter1());
-console.log(counter1())
-
+console.log(b)
