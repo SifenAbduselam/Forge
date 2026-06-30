@@ -1,8 +1,9 @@
 //  so array means a distance from the beginning 
 
 
-const students = ["Ali", "sara"]
+const students = ["Ali", "sara", "John"]
 
-students.push("John");
+const result = students.pop("sara")
 
-console.log(students)
+console.log(result)
+
